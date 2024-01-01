@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick"> Kathir</h1>
+
+          <p class="title">Biomedical Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">224510B@mymail.nyp.edu.sg</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+65 8931 9351</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23"> February 24, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Singapore, Boon Lay Drive</address>
+            </div>
+
+          </li>
+      </div>
+      </div>
+
+
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am Biomedical student, I bring a unique blend of expertise in both programming and design. Well-versed in fundamental mechanics, AutoCAD, and Programmable Logic Control, I am committed to advancing my knowledge in biomedical science, technology, and engineering. My goal is to contribute to cutting-edge solutions that address challenges in the biomedical field, leveraging my diverse skill set to create impactful advancements.
+          </p>
+
+          <p>
+Welcome to my digital portfolio! I am excited to showcase my journey as a Biomedical student with a strong background in programming and design. As you navigate through these pages, you'll discover a fusion of my academic knowledge and practical skills, ranging from operating warehouse equipment and conducting quality control to proficiency in programming languages like Python and design software such as SolidWorks. My commitment to advancing biomedical science, coupled with a passion for innovation reflects in my experiences as a CNC machinist and SolidWorks designer. Join me on this exploration of my diverse skill set and accomplishments,
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Product Design and Development</h4>
+
+                <p class="service-item-text">
+                  Creating a new product or improving an existing one.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
+
+                <p class="service-item-text">
+                  write, modify, and test code and scripts to integrate innovative technologies into our everyday work and make it more efficient
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Arduino</h4>
+
+                <p class="service-item-text">
+                  making interesting IomT projects related biomedical engineering using arduino.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Reference</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mr Lee Chuen Kum</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p> LECTURER  </p>
+                  <p> Nanyang Polytechnic </p>
+                  <p> 9144 8360  </p>
+                  <p> lee_chuen_kum@nyp.edu.sg  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>MISS TAN YAN XIN</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p> LECTURER  </p>
+                  <p> SCHOOL OF ENGINEERING, INSTITUTE OF TECHNICAL </p>
+                  <p> 92778681  </p>
+                  <p> TAN_YAN_XIN@ITE.EDU.SG  </p>
+
+
+                </div>
+
+              </div>
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14"></time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Nanyang Polytechnic</h4>
+
+              <span>2022 - 2025</span>
+
+              <p class="timeline-text">
+                Diploma in Biomedical Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Institute of Technical Education</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                Higher Nitec In Mechanical Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jurong Secondary School</h4>
+
+              <span>2020 — 2016</span>
+
+              <p class="timeline-text">
+                O level and N level
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Warehouse Assistant</h4>
+
+              <span>Holiday Job 2023 | Bollore Logistics, 11 Pioneer Turn</span>
+
+              <p class="timeline-text">
+                Operated pallet jacks and otherwarehouse equipment to move goods quickly and safely.
+                Packed, secured, labeledand applied postageto materials to prepare items for shipment.
+                Conducted research to address shipping errors and packagin mistakes.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CNC machinist and QC Intern </h4>
+
+              <span> Kah Lam Hardware Engineering Pte.Ltd | 39 Tuas Basin Link</span>
+
+              <p class="timeline-text">
+                Create 3D models and assemblies using SolidWorks.
+                Develop and implement inspection procedures to ensure product quality.
+                Maintain detailed records of QC processes and results.
+                Conducted tutoring sessionsfor supervisor to use solidworks.
+                Help in redesigning the CNC machine door.
+              </p>
+
+            </li>
+
+
+
+          </ol>
+
+        </section>
+
+
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+<article class="portfolio" data-page="portfolio">
+
+    <header>
+        <h2 class="h2 article-title">Projects</h2>
+    </header>
+
+    <section class="projects">
+
+        <ul class="filter-list">
+        </ul>
+
+        <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+                <div class="select-value" data-selecct-value>Select category</div>
+
+                <div class="select-icon">
+                    <ion-icon name="chevron-down"></ion-icon>
+                </div>
+
+            </button>
+
+            <ul class="select-list">
+
+                <li class="select-item">
+                    <button data-select-item>All</button>
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- ... Existing Code ... -->
+
+        <ul class="project-list">
+
+            <!-- Project 1 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="lky2022_page-0001.jpg" alt="LEE KUAN YEW TECHNOLOGY AWARD 2022" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Lee Kuan Yew Award</h3>
+                </a>
+            </li>
+
+
+
+            <!-- Project 3 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="Picture2.png" alt="Helping to Repair CNC Machine" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Repair CNC Machine</h3>
+                </a>
+            </li>
+
+            <!-- Project 4 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="Picture5.png" alt="Using Solidworks to 3D" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Solidworks 3D</h3>
+                </a>
+            </li>
+
+            <!-- Project 5 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="Picture6.png" alt="Data input after inspection as a QC" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">QC Inspection</h3>
+                </a>
+            </li>
+
+            <!-- Project 6 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="FSM1 KATHIR.png" alt="Creating a FSM Diagram" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">FSM Diagram</h3>
+                </a>
+            </li>
+
+            <!-- Project 7 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="circuit1.jpg" alt="Electrical" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Electrical Circuit</h3>
+                </a>
+            </li>
+
+            <!-- Project 8 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="circuit2.jpg" alt="Coding" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Coding</h3>
+                </a>
+            </li>
+
+            <!-- Project 9 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="circuit3.jpg" alt="Making a watch" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Making a Watch</h3>
+                </a>
+            </li>
+
+            <!-- Project 10 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="av1.jpg" alt="" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Award</h3>
+                </a>
+            </li>
+
+            <!-- Project 11 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="av2.jpg" alt="" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Award</h3>
+                </a>
+            </li>
+
+            <!-- Project 12 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="rt2.jpg" alt="" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">3d Printing</h3>
+                </a>
+            </li>
+
+            <!-- Project 13 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="rt1.jpg" alt="" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Using Tools</h3>
+                </a>
+            </li>
+
+            <!-- Project 14 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="rt5.jpg" alt="" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Prototype</h3>
+                </a>
+            </li>
+
+            <!-- Project 15 -->
+            <li class="project-item active" data-filter-item>
+                <a href="#">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="rt6.jpg" alt="" loading="lazy" onclick="onClick(this)" class="w3-hover-opacity">
+                    </figure>
+                    <h3 class="project-title">Designing</h3>
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+
+</article>
+
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Technical skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Fusion 360 / Inventor </h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SolidWorks</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        </section>
+
+
+        <section class="Skills">
+
+          <h3 class="h3 skills-title">Additional Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Effective Communication </h5>
+              </div>
+
+              <div class="title-wrapper">
+                <h5 class="h5">Problem Solving </h5>
+              </div>
+              <div class="title-wrapper">
+                <h5 class="h5">Hard & Smart Worker </h5>
+              </div>
+              <div class="title-wrapper">
+
+                <h5 class="h5">Adaptability </h5>
+              </div>
+              <div class="title-wrapper">
+                <h5 class="h5">Self Motivated </h5>
+              </div>
+
+              <div class="title-wrapper">
+                <h5 class="h5">Excellent Debugging Skills </h5>
+              </div>
+              <div class="title-wrapper">
+
+                <h5 class="h5">Strong Team Collaboration and Leadership </h5>
+              </div>
+              <div class="title-wrapper">
+                <h5 class="h5">Good at Decision Making and Problem Solving </h5>
+              </div>
+
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63820.27032946398!2d103.65983759487047!3d1.315405660043541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da05690e689de1%3A0x39e1b8a85a1ea9fe!2sBoon%20Lay!5e0!3m2!1sen!2ssg!4v1704111570673!5m2!1sen!2ssg"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">224510B@mymail.nyp.edu.sg</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+65 8931 9351</a>
+            </div>
+
+          </li>
+
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Singapore, Boon Lay Drive</address>
+            </div>
+          </li>
+
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
